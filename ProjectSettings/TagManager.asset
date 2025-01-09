@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Weapon
   - Enemy
+  - Ground
+  - EnemyWeapon
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,7 @@ TagManager:
   - Player
   - Enemy
   - Player hurt
-  - 
+  - Weapon
   - 
   - 
   - 
@@ -42,4 +44,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Top
+    uniqueID: 4268653705
     locked: 0
